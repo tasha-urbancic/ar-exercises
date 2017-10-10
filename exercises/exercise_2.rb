@@ -6,7 +6,6 @@ puts "----------"
 
 @store1 = Store.find(1)
 @store2 = Store.find(2)
-@store3 = Store.find(3)
 
 @store1.name = 'Funny Store'
 @store1.save
